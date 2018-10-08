@@ -243,10 +243,13 @@
 const bucketName = 'nature-images';
 const filename = './public/images/IMG_20180616_075340.jpg';
 
-const Bucket = require('./Bucket/uploadImage');
+const Bucket = require('./Bucket/getFiles');
 
 // create Bucket
 // Bucket.createBucket(bucketName);
 
 // upload image.
-Bucket.uploadImage(bucketName,filename);
+// Bucket.uploadImage(bucketName,filename);
+
+// Bucket.listBuckets();
+Bucket.getFile(bucketName);
