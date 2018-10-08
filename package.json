@@ -1,0 +1,23 @@
+{
+  "name": "sb",
+  "version": "1.0.0",
+  "description": "GCP",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/storage": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakaitBhandari2807/NodeDesignPatterns.git"
+  },
+  "author": "SB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SakaitBhandari2807/NodeDesignPatterns/issues"
+  },
+  "homepage": "https://github.com/SakaitBhandari2807/NodeDesignPatterns#readme"
+}

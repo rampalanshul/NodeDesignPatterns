@@ -240,3 +240,13 @@
 //     const reader2 = createFileReader('../index.html');
 //     reader2.onDataReady(data=>console.log(data));
 // });
+const bucketName = 'nature-images';
+const filename = './public/images/IMG_20180616_075340.jpg';
+
+const Bucket = require('./Bucket/uploadImage');
+
+// create Bucket
+// Bucket.createBucket(bucketName);
+
+// upload image.
+Bucket.uploadImage(bucketName,filename);
