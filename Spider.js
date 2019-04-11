@@ -35,5 +35,3 @@ showmovies();
 
 
 
-Client ID: 272780864268-7e9be73ugh4q2irsp1m09t2hufeto3jf.apps.googleusercontent.com
-Client Secret: ijR6WAh0P5rq3mRN4JeIK7hy
