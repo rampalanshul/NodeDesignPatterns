@@ -18,7 +18,7 @@ class SE10 {
             for(int i=1;i<n;i++){
                 boolean isGood = true;
                 for(int j=i-1;j>-1 && j>=i-5;j--){
-                    if(prices[i]>prices[j]){
+                    if(prices[i]>=prices[j]){
                         isGood=false;
                         break;
                     }
